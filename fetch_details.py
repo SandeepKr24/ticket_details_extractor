@@ -65,7 +65,7 @@ def extract_info(text):
   status_match = []
   statuss = []
 
-  # status- different source of tickets (IRCTC, Gpay, confirmticket etc. have different formats)
+  # status- different source of tickets (IRCTC, Gpay, confirmticket etc.) have different formats
   # the following conditionals take care of that
   status_match_type1 = re.findall(r'(\w+\s+\/\w+\/\d+\/\w+\s*\w+)', text) # finds status (type 1)
   if status_match_type1:
