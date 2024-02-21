@@ -24,8 +24,7 @@ for _ in range(len(station_codes)):
 travel_classes = ['CHAIR CAR (CC)', 'CC', 'AC CHAIR CLASS (CC)', 'CHAIR CLASS (CC)', 'SECOND AC (2A)', 'THIRD AC (3A)', 'SLEEPER (SL)', 'GENERAL (G)']
 
 # Replace 'path' with the path to the ticket pdf
-# pdf_path = 'path'
-pdf_path = './tickets/test.pdf'
+pdf_path = 'path'
 
 text = get_text(pdf_path)
 
