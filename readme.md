@@ -1,5 +1,11 @@
 Ticket Details Extractor
 
+Here is a demo-
+
+https://github.com/SandeepKr24/ticket_details_extractor/assets/94790806/dc7c995a-8bff-40bb-b322-08dda098f9b8
+
+For some reason, my screen recorder did not capture the chrome tab that the script opened to extract the station names and codes :(
+
 Steps to run-
 1) Install Python
 2) Install the required dependencies and libraries (refer requirements.txt) ~use this command if you have pip installed - pip install requirements.txt
