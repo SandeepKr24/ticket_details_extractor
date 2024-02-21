@@ -1,6 +1,6 @@
 # Extract the details from the ticket pdf and store them in a dictionary
 
-# uncomment this following when running for the first time
+# uncomment the following when running for the first time
 
 # with open("get_stationcodes.py") as f:
 #   exec(f.read())
