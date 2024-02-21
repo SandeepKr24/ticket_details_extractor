@@ -1,0 +1,4 @@
+pandas
+fitz
+PyMuPDF
+selenium
