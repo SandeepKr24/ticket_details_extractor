@@ -39,6 +39,7 @@ def extract_info(text):
   # this function follows the following pattern for all the details-
   # 1) Match the regex to get the details in raw format (this also extracts some useless information from the text)
   # 2) format the details into a list
+  
   name_age_gender_match = re.findall(r'([A-Za-z]+\.?\s([A-Za-z]+\.?\s)?[A-Za-z]+\.?\s*\d{2}\s+[M|F])', text) # finds name, age and gender
 
   names = []
